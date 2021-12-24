@@ -4,6 +4,7 @@ import Image from "next/image"
 import { useMoralis } from "react-moralis";
 
 
+
 const Login = () => {
     const {authenticate}=useMoralis()
     return (
@@ -13,8 +14,8 @@ const Login = () => {
             <div className='flex flex-col absolute z-50  w-full h-4/6 justify-center items-center
             space-y-8'>
                
-                <Image className='object-cover rounded-full' src="https://links.papareact.com/3pi"  width={200} height={200}/>
-                <button onClick={()=>{authenticate()}} className='bg-yellow-500 p-3 animate-bounce rounded-lg'>Login to METAMASK</button>
+                <Image className='object-cover rounded-full' src='/vikas1.jpg'  width={200} height={200}/>
+                <button onClick={()=>{authenticate()}} className='bg-yellow-50 text-yellow-400 text-xl p-3 animate-bounce rounded-lg'>Login to METAMASK</button>
             </div>
 
             <div className='w-full h-screen'>
